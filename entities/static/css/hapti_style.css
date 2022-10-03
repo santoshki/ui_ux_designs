@@ -1,0 +1,135 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');*/
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #404040;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -0px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -5px 6px 0px inset;
+}
+
+.brand-logo {
+  height: 120px;
+  width: 120px;
+  /*background-image: url("C:\\Users\\Santiago\\Pictures\\selfpic.jpg");*/
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -0px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -5px 6px 0px inset;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+  margin-top: 20px;
+  background: #11111;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow:
+    7px 7px 15px rgba(55, 84, 170,.15),
+    -10px -10px 30px rgba(255, 255, 255,1),
+    inset 0px 0px 4px rgba(255, 255, 255,.2);
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  box-shadow:
+      inset 10px 10px 15px rgba(55, 84, 170, .15),
+      inset -10px -10px 20px rgba(255, 255, 255, 1),
+      0px 0px 4px rgba(255, 255, 255, .2);
+}
+
+a {
+  position: relative;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 2px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+}
+
+a1 {
+  position: absolute;
+  font-size: 8px;
+  bottom: 4px;
+  right: 4px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

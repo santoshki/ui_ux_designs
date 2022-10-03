@@ -13,7 +13,11 @@ body{
   display: grid;
   place-items: center;
   text-align: center;
+<<<<<<< HEAD
   background: #dde1e7;
+=======
+  background: #383838;
+>>>>>>> ed78b47 (Updated CSS code to reflect shadow.)
 }
 
 .content{
@@ -100,7 +104,11 @@ button{
   color: #000;
   font-size: 18px;
   font-weight: 600;
+<<<<<<< HEAD
   background: #D3D3D3;
+=======
+  background: #383838;
+>>>>>>> ed78b47 (Updated CSS code to reflect shadow.)
   border: none;
   outline: none;
   cursor: pointer;
